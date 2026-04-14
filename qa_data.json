@@ -1,0 +1,342 @@
+[
+  {
+    "question": "What is Java?",
+    "answer": "Definition:\nJava is a high-level, object-oriented programming language used to develop web, mobile, and desktop applications. It is platform-independent.\n\nSyntax:\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello Java\");\n    }\n}\n\nExample Output:\nHello Java"
+  },
+  {
+    "question": "Features of Java",
+    "answer": "Definition:\nFeatures of Java are its important properties like portability, security, and simplicity.\n\nSyntax:\n(No specific syntax)\n\nExample:\nSimple\nObject-Oriented\nPlatform Independent\nSecure\nRobust"
+  },
+  {
+    "question": "What is JVM?",
+    "answer": "Definition:\nJVM (Java Virtual Machine) is responsible for running Java bytecode.\n\nSyntax:\nSource Code -> Compiler -> Bytecode -> JVM -> Output\n\nExample:\nJava program runs on any OS using JVM."
+  },
+  {
+    "question": "What is JRE?",
+    "answer": "Definition:\nJRE (Java Runtime Environment) provides libraries and JVM to run Java programs.\n\nSyntax:\nJRE = JVM + Libraries\n\nExample:\nUsed when only running Java applications."
+  },
+  {
+    "question": "What is JDK?",
+    "answer": "Definition:\nJDK (Java Development Kit) is a full package for developing Java programs.\n\nSyntax:\nJDK = JRE + Development Tools\n\nExample:\nUsed to compile and run Java programs."
+  },
+  {
+    "question": "Difference between JVM, JRE, JDK",
+    "answer": "Definition:\nJVM runs program\nJRE provides environment\nJDK provides tools\n\nSyntax:\nJDK -> JRE -> JVM\n\nExample:\nJDK is needed for coding, JRE for running."
+  },
+  {
+    "question": "What is a Variable?",
+    "answer": "Definition:\nA variable is a container used to store data.\n\nSyntax:\ndataType variableName = value;\n\nExample:\nint age = 20;\nSystem.out.println(age);"
+  },
+  {
+    "question": "Data Types in Java",
+    "answer": "Definition:\nData types define the type of data stored in a variable.\n\nSyntax:\nint a = 10;\nfloat b = 5.5f;\nchar c = 'A';\n\nExample:\nint -> 10\nfloat -> 5.5\nchar -> 'A'"
+  },
+  {
+    "question": "What is Type Casting?",
+    "answer": "Definition:\nType casting is converting one data type into another.\n\nSyntax:\nint a = (int) 5.5;\n\nExample:\ndouble d = 9.8;\nint i = (int) d;\nSystem.out.println(i);"
+  },
+  {
+    "question": "What is Operator in Java?",
+    "answer": "Definition:\nOperators are symbols used to perform operations.\n\nSyntax:\na + b\na - b\na * b\n\nExample:\nint a = 10, b = 5;\nSystem.out.println(a + b);"
+  },
+  {
+    "question": "What are control statements in Java?",
+    "answer": "Definition:\nControl statements are used to control the flow of execution in a program.\n\nSyntax:\nif(condition) {\n   // statement\n}\n\nExample:\nint age = 18;\nif(age >= 18) {\n    System.out.println(\"Eligible to vote\");\n}"
+  },
+  {
+    "question": "What is if-else statement?",
+    "answer": "Definition:\nif-else is used to execute one block if condition is true, otherwise another block.\n\nSyntax:\nif(condition) {\n   // true block\n} else {\n   // false block\n}\n\nExample:\nint num = 10;\n\nif(num % 2 == 0) {\n    System.out.println(\"Even\");\n} else {\n    System.out.println(\"Odd\");\n}"
+  },
+  {
+    "question": "What is a loop in Java?",
+    "answer": "Definition:\nA loop is used to execute a block of code repeatedly.\n\nSyntax:\nfor(initialization; condition; increment) {\n   // code\n}\n\nExample:\nfor(int i = 1; i <= 5; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "question": "Types of loops in Java",
+    "answer": "Definition:\nJava provides loops to repeat code execution.\n\nSyntax:\nfor loop\nwhile loop\ndo-while loop\n\nExample:\nint i = 1;\nwhile(i <= 3) {\n    System.out.println(i);\n    i++;\n}"
+  },
+  {
+    "question": "What is an array?",
+    "answer": "Definition:\nAn array is a collection of similar data types stored in a single variable.\n\nSyntax:\ndataType[] arrayName = new dataType[size];\n\nExample:\nint[] arr = {10, 20, 30};\nSystem.out.println(arr[0]);"
+  },
+  {
+    "question": "What is OOP (Object-Oriented Programming)?",
+    "answer": "Definition:\nOOP is a programming style based on objects and classes.\n\nSyntax:\nclass Demo {\n    int a = 10;\n}\n\nExample:\nclass Car {\n    String color = \"Red\";\n}"
+  },
+  {
+    "question": "What is a class?",
+    "answer": "Definition:\nA class is a blueprint for creating objects.\n\nSyntax:\nclass ClassName {\n   // variables + methods\n}\n\nExample:\nclass Student {\n    int id = 101;\n}"
+  },
+  {
+    "question": "What is an object?",
+    "answer": "Definition:\nAn object is an instance of a class.\n\nSyntax:\nClassName obj = new ClassName();\n\nExample:\nclass Student {\n    int id = 101;\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Student s = new Student();\n        System.out.println(s.id);\n    }\n}"
+  },
+  {
+    "question": "What is encapsulation?",
+    "answer": "Definition:\nEncapsulation is wrapping data and methods into a single unit (class).\n\nSyntax:\nprivate int data;\npublic void setData(int d) {\n    data = d;\n}\n\nExample:\nclass Student {\n    private int age;\n\n    public void setAge(int a) {\n        age = a;\n    }\n\n    public void getAge() {\n        System.out.println(age);\n    }\n}"
+  },
+  {
+    "question": "What is inheritance?",
+    "answer": "Definition:\nInheritance allows a class to acquire properties of another class.\n\nSyntax:\nclass Child extends Parent {\n}"
+  },
+  {
+    "question": "What is polymorphism?",
+    "answer": "Definition:\nPolymorphism means one action can be performed in many ways.\n\nSyntax:\nclass Demo {\n    void show() {}\n}\n\nExample (Method Overloading):\nclass Demo {\n    void show(int a) {\n        System.out.println(a);\n    }\n\n    void show(String b) {\n        System.out.println(b);\n    }\n\n    public static void main(String[] args) {\n        Demo d = new Demo();\n        d.show(10);\n        d.show(\"Hello\");\n    }\n}"
+  },
+  {
+    "question": "What is abstraction?",
+    "answer": "Definition:\nAbstraction means hiding implementation details and showing only functionality.\n\nSyntax:\nabstract class ClassName {\n    abstract void method();\n}\n\nExample:\nabstract class Animal {\n    abstract void sound();\n}\n\nclass Dog extends Animal {\n    void sound() {\n        System.out.println(\"Bark\");\n    }\n}"
+  },
+  {
+    "question": "What is interface?",
+    "answer": "Definition:\nAn interface is a blueprint of a class that contains abstract methods.\n\nSyntax:\ninterface MyInterface {\n    void show();\n}\n\nExample:\ninterface Animal {\n    void sound();\n}\n\nclass Dog implements Animal {\n    public void sound() {\n        System.out.println(\"Bark\");\n    }\n}"
+  },
+  {
+    "question": "Difference between class and object",
+    "answer": "Definition:\nClass = Blueprint\nObject = Instance of class\n\nSyntax:\nclass A {}\nA obj = new A();\n\nExample:\nclass Car {\n    String color = \"Red\";\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Car c = new Car();\n        System.out.println(c.color);\n    }\n}"
+  },
+  {
+    "question": "Method overloading vs overriding",
+    "answer": "Definition:\nOverloading = same method name, different parameters\nOverriding = same method in parent and child class\n\nSyntax:\n// Overloading\nvoid show(int a) {}\nvoid show(String b) {}\n\nExample:\nclass A {\n    void show() {\n        System.out.println(\"Parent\");\n    }\n}\n\nclass B extends A {\n    void show() {\n        System.out.println(\"Child\");\n    }\n}"
+  },
+  {
+    "question": "What is constructor?",
+    "answer": "Definition:\nA constructor is a special method used to initialize objects.\n\nSyntax:\nclass ClassName {\n    ClassName() {\n        // constructor code\n    }\n}\n\nExample:\nclass Student {\n    Student() {\n        System.out.println(\"Constructor called\");\n    }\n\n    public static void main(String[] args) {\n        Student s = new Student();\n    }\n}"
+  },
+  {
+    "question": "Types of constructors",
+    "answer": "Definition:\nDefault constructor\nParameterized constructor\n\nSyntax:\nClassName() {}\nClassName(int a) {}\n\nExample:\nclass Student {\n    Student() {\n        System.out.println(\"Default Constructor\");\n    }\n\n    Student(int a) {\n        System.out.println(a);\n    }\n}"
+  },
+  {
+    "question": "What is this keyword?",
+    "answer": "Definition:\nthis refers to the current object.\n\nSyntax:\nthis.variable = variable;\n\nExample:\nclass Student {\n    int age;\n\n    Student(int age) {\n        this.age = age;\n    }\n\n    void show() {\n        System.out.println(age);\n    }\n}"
+  },
+  {
+    "question": "What is super keyword?",
+    "answer": "Definition:\nsuper refers to the parent class object.\n\nSyntax:\nsuper.methodName();\n\nExample:\nclass A {\n    void show() {\n        System.out.println(\"Parent\");\n    }\n}\n\nclass B extends A {\n    void display() {\n        super.show();\n    }\n}"
+  },
+  {
+    "question": "What is static keyword?",
+    "answer": "Definition:\nstatic is used for memory management and shared variables/methods.\n\nSyntax:\nstatic int x = 10;\n\nExample:\nclass Test {\n    static int count = 0;\n\n    Test() {\n        count++;\n    }\n\n    public static void main(String[] args) {\n        Test t1 = new Test();\n        Test t2 = new Test();\n        System.out.println(Test.count);\n    }\n}"
+  },
+  {
+    "question": "What is method overloading?",
+    "answer": "Definition:\nMethod overloading means multiple methods with the same name but different parameters.\n\nSyntax:\nclass Demo {\n    void show(int a) {}\n    void show(String b) {}\n}\n\nExample:\nclass Demo {\n    void show(int a) {\n        System.out.println(a);\n    }\n\n    void show(String b) {\n        System.out.println(b);\n    }\n\n    public static void main(String[] args) {\n        Demo d = new Demo();\n        d.show(10);\n        d.show(\"Java\");\n    }\n}"
+  },
+  {
+    "question": "What is method overriding?",
+    "answer": "Definition:\nMethod overriding means child class provides specific implementation of parent class method.\n\nSyntax:\nclass A {\n    void show() {}\n}\n\nclass B extends A {\n    void show() {}\n}\n\nExample:\nclass A {\n    void show() {\n        System.out.println(\"Parent class\");\n    }\n}\n\nclass B extends A {\n    void show() {\n        System.out.println(\"Child class\");\n    }\n}"
+  },
+  {
+    "question": "What is exception handling?",
+    "answer": "Definition:\nException handling is used to handle runtime errors so program does not crash.\n\nSyntax:\ntry {\n    // code\n} catch(Exception e) {\n    // handling\n}\n\nExample:\npublic class Main {\n    public static void main(String[] args) {\n        try {\n            int a = 10 / 0;\n        } catch(Exception e) {\n            System.out.println(\"Error occurred\");\n        }\n    }\n}"
+  },
+  {
+    "question": "Types of exceptions",
+    "answer": "Definition:\nExceptions are of two types:\nChecked Exception\nUnchecked Exception\n\nSyntax:\ntry { }\ncatch(Exception e) { }\n\nExample:\nint a = 10 / 0; // ArithmeticException"
+  },
+  {
+    "question": "What is try-catch block?",
+    "answer": "Definition:\nUsed to handle exceptions in code execution.\n\nSyntax:\ntry {\n    // code\n} catch(Exception e) {\n    // handling\n}\n\nExample:\ntry {\n    int a = 5 / 0;\n} catch(Exception e) {\n    System.out.println(\"Cannot divide by zero\");\n}"
+  },
+  {
+    "question": "What is finally block?",
+    "answer": "Definition:\nFinally block always executes whether exception occurs or not.\n\nSyntax:\ntry {}\ncatch {}\nfinally {}\n\nExample:\ntry {\n    int a = 10 / 2;\n} catch(Exception e) {\n    System.out.println(\"Error\");\n} finally {\n    System.out.println(\"Always executed\");\n}"
+  },
+  {
+    "question": "What is throw keyword?",
+    "answer": "Definition:\nthrow is used to manually throw an exception.\n\nSyntax:\nthrow new Exception();\n\nExample:\npublic class Main {\n    public static void main(String[] args) {\n        throw new ArithmeticException(\"Error\");\n    }\n}"
+  },
+  {
+    "question": "What is throws keyword?",
+    "answer": "Definition:\nthrows is used to declare exceptions in method signature.\n\nSyntax:\nvoid method() throws Exception {}\n\nExample:\nclass Demo {\n    void show() throws Exception {\n        throw new Exception();\n    }\n}"
+  },
+  {
+    "question": "What is multithreading?",
+    "answer": "Definition:\nMultithreading is a process of running multiple threads simultaneously.\n\nSyntax:\nclass MyThread extends Thread {\n    public void run() {}\n}\n\nExample:\nclass MyThread extends Thread {\n    public void run() {\n        System.out.println(\"Thread running\");\n    }\n\n    public static void main(String[] args) {\n        MyThread t = new MyThread();\n        t.start();\n    }\n}"
+  },
+  {
+    "question": "What is synchronization?",
+    "answer": "Definition:\nSynchronization is used to control access of multiple threads to shared resources.\n\nSyntax:\nsynchronized void method() {}\n\nExample:\nclass Table {\n    synchronized void print(int n) {\n        for(int i = 1; i <= 5; i++) {\n            System.out.println(n * i);\n        }\n    }\n}"
+  },
+  {
+    "question": "What is Stack Memory?",
+    "answer": "Definition:\nStack memory stores method calls and local variables. It works in LIFO (Last In First Out) order.\n\nSyntax:\n(No direct syntax, memory concept)\n\nExample:\npublic class Main {\n    public static void main(String[] args) {\n        int a = 10; // stored in stack\n        System.out.println(a);\n    }\n}"
+  },
+  {
+    "question": "What is Heap Memory?",
+    "answer": "Definition:\nHeap memory stores objects and instance variables.\n\nSyntax:\nClassName obj = new ClassName();\n\nExample:\nclass Student {\n    int id = 101;\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Student s = new Student(); // stored in heap\n        System.out.println(s.id);\n    }\n}"
+  },
+  {
+    "question": "What is Garbage Collection?",
+    "answer": "Definition:\nGarbage collection is a process that removes unused objects automatically.\n\nSyntax:\nSystem.gc();\n\nExample:\npublic class Main {\n    public static void main(String[] args) {\n        Main obj = new Main();\n        obj = null; // eligible for garbage collection\n        System.gc();\n    }\n}"
+  },
+  {
+    "question": "What is Class Loader?",
+    "answer": "Definition:\nClass loader loads class files into JVM memory.\n\nSyntax:\n(No direct syntax)\n\nExample:\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Class loaded by JVM\");\n    }\n}"
+  },
+  {
+    "question": "What is a Package in Java?",
+    "answer": "Definition:\nA package is a group of related classes and interfaces.\n\nSyntax:\npackage mypack;\n\nExample:\npackage mypack;\n\nclass Demo {\n    public static void main(String[] args) {\n        System.out.println(\"Package example\");\n    }\n}"
+  },
+  {
+    "question": "What is file handling in Java?",
+    "answer": "Definition:\nFile handling is used to read and write files.\n\nSyntax:\nFile file = new File(\"file.txt\");\n\nExample:\nimport java.io.File;\n\npublic class Main {\n    public static void main(String[] args) {\n        File file = new File(\"test.txt\");\n        System.out.println(file.exists());\n    }\n}"
+  },
+  {
+    "question": "What is BufferedReader?",
+    "answer": "Definition:\nBufferedReader is used to read text efficiently from input stream.\n\nSyntax:\nBufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n\nExample:\nimport java.io.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        System.out.println(\"Enter text:\");\n        String name = br.readLine();\n        System.out.println(name);\n    }\n}"
+  },
+  {
+    "question": "What is Scanner class?",
+    "answer": "Definition:\nScanner class is used to take input from user.\n\nSyntax:\nScanner sc = new Scanner(System.in);\n\nExample:\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"Enter number:\");\n        int num = sc.nextInt();\n        System.out.println(num);\n    }\n}"
+  },
+  {
+    "question": "What is serialization?",
+    "answer": "Definition:\nSerialization converts an object into byte stream for storage or transfer.\n\nSyntax:\nclass ClassName implements Serializable {}\n\nExample:\nimport java.io.Serializable;\n\nclass Student implements Serializable {\n    int id = 101;\n}"
+  },
+  {
+    "question": "What are Java Collections?",
+    "answer": "Definition:\nJava Collections is a framework that provides classes and interfaces to store and manipulate data.\n\nSyntax:\nArrayList<Integer> list = new ArrayList<>();\n\nExample:\nimport java.util.ArrayList;\n\npublic class Main {\n    public static void main(String[] args) {\n        ArrayList<Integer> list = new ArrayList<>();\n        list.add(10);\n        list.add(20);\n        System.out.println(list);\n    }\n}"
+  },
+  {
+    "question": "What is constructor overloading?",
+    "answer": "Definition:\nConstructor overloading means having multiple constructors with different parameters in the same class.\n\nSyntax:\nclass Demo {\n    Demo() {}\n    Demo(int a) {}\n}\n\nExample:\nclass Demo {\n    Demo() {\n        System.out.println(\"Default constructor\");\n    }\n\n    Demo(int a) {\n        System.out.println(\"Value: \" + a);\n    }\n\n    public static void main(String[] args) {\n        Demo d1 = new Demo();\n        Demo d2 = new Demo(10);\n    }\n}"
+  },
+  {
+    "question": "What is a String in Java?",
+    "answer": "Definition:\nString is a sequence of characters used to store text.\n\nSyntax:\nString str = \"Hello\";\n\nExample:\npublic class Main {\n    public static void main(String[] args) {\n        String name = \"Java\";\n        System.out.println(name);\n    }\n}"
+  },
+  {
+    "question": "What is StringBuilder?",
+    "answer": "Definition:\nStringBuilder is used to create mutable (modifiable) strings.\n\nSyntax:\nStringBuilder sb = new StringBuilder(\"Hello\");\n\nExample:\npublic class Main {\n    public static void main(String[] args) {\n        StringBuilder sb = new StringBuilder(\"Java\");\n        sb.append(\" Programming\");\n        System.out.println(sb);\n    }\n}"
+  },
+  {
+    "question": "Difference between String and StringBuilder",
+    "answer": "Definition:\nString = immutable\nStringBuilder = mutable\n\nSyntax:\nString s = \"A\";\nStringBuilder sb = new StringBuilder(\"A\");\n\nExample:\nString s = \"Hello\";\ns.concat(\" World\");\n\nStringBuilder sb = new StringBuilder(\"Hello\");\nsb.append(\" World\");"
+  },
+  {
+    "question": "What is ArrayList?",
+    "answer": "Definition:\nArrayList is a resizable array in Java (from Collections Framework).\n\nSyntax:\nArrayList<Integer> list = new ArrayList<>();\n\nExample:\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        ArrayList<Integer> list = new ArrayList<>();\n        list.add(10);\n        list.add(20);\n        System.out.println(list);\n    }\n}"
+  },
+  {
+    "question": "What is LinkedList?",
+    "answer": "Definition:\nLinkedList is a data structure where elements are stored in nodes linked together.\n\nSyntax:\nLinkedList<Integer> list = new LinkedList<>();\n\nExample:\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        LinkedList<Integer> list = new LinkedList<>();\n        list.add(100);\n        list.add(200);\n        System.out.println(list);\n    }\n}"
+  },
+  {
+    "question": "What is HashMap?",
+    "answer": "Definition:\nHashMap stores data in key-value pairs.\n\nSyntax:\nHashMap<Integer, String> map = new HashMap<>();\n\nExample:\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        HashMap<Integer, String> map = new HashMap<>();\n        map.put(1, \"Java\");\n        map.put(2, \"Python\");\n        System.out.println(map);\n    }\n}"
+  },
+  {
+    "question": "Difference between ArrayList and LinkedList",
+    "answer": "Definition:\nArrayList → fast access\nLinkedList → fast insertion/deletion\n\nSyntax:\nArrayList<Integer> a = new ArrayList<>();\nLinkedList<Integer> b = new LinkedList<>();"
+  },
+  {
+    "question": "What is final keyword?",
+    "answer": "Definition:\nfinal keyword is used to restrict modification of variable, method, or class.\n\nSyntax:\nfinal int a = 10;\n\nExample:\npublic class Main {\n    public static void main(String[] args) {\n        final int x = 100;\n        System.out.println(x);\n    }\n}"
+  },
+  {
+    "question": "What is final method?",
+    "answer": "Definition:\nA final method cannot be overridden.\n\nSyntax:\nfinal void show() {}\n\nExample:\nclass A {\n    final void show() {\n        System.out.println(\"Final method\");\n    }\n}"
+  },
+  {
+    "question": "What is final class?",
+    "answer": "Definition:\nA final class cannot be inherited.\n\nSyntax:\nfinal class A {}\n\nExample:\nfinal class A {\n    void display() {\n        System.out.println(\"Final class\");\n    }\n}"
+  },
+  {
+    "question": "What is package in Java (types)?",
+    "answer": "Definition:\nPackages are of two types:\nBuilt-in packages\nUser-defined packages\n\nSyntax:\nimport java.util.*;\n\nExample:\nimport java.util.Scanner;\n\nclass Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n    }\n}"
+  },
+  {
+    "question": "What is access modifier?",
+    "answer": "Definition:\nAccess modifiers define visibility of classes, methods, and variables.\n\nSyntax:\npublic, private, protected, default\n\nExample:\nclass Demo {\n    private int a = 10;\n}"
+  },
+  {
+    "question": "What is default access modifier?",
+    "answer": "Definition:\nIf no modifier is used, it is default (package-level access).\n\nSyntax:\nint a = 10; // default\n\nExample:\nclass Demo {\n    int x = 5; // default access\n}"
+  },
+  {
+    "question": "What is break and continue?",
+    "answer": "Definition:\nbreak → exits loop\ncontinue → skips current iteration\n\nSyntax:\nbreak;\ncontinue;\n\nExample:\npublic class Main {\n    public static void main(String[] args) {\n        for(int i = 1; i <= 5; i++) {\n            if(i == 3)\n                continue;\n\n            System.out.println(i);\n        }\n    }\n}"
+  },
+  {
+    "question": "What is type promotion in Java?",
+    "answer": "Definition:\nType promotion automatically converts smaller data type into larger data type during expression evaluation.\n\nSyntax:\nint + float → float\n\nExample:\npublic class Main {\n    public static void main(String[] args) {\n        int a = 10;\n        float b = 5.5f;\n        float result = a + b;\n        System.out.println(result);\n    }\n}"
+  },
+  {
+    "question": "What is command-line argument?",
+    "answer": "Definition:\nIt allows passing values to a Java program at runtime through terminal.\n\nSyntax:\npublic static void main(String[] args)\n\nExample:\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(args[0]);\n    }\n}"
+  },
+  {
+    "question": "What is wrapper class?",
+    "answer": "Definition:\nWrapper classes convert primitive types into objects.\n\nSyntax:\nInteger i = 10;\n\nExample:\npublic class Main {\n    public static void main(String[] args) {\n        Integer x = 100;\n        System.out.println(x);\n    }\n}"
+  },
+  {
+    "question": "What is autoboxing?",
+    "answer": "Definition:\nAutomatic conversion of primitive → wrapper object.\n\nSyntax:\nint → Integer\n\nExample:\nInteger a = 10;"
+  },
+  {
+    "question": "What is unboxing?",
+    "answer": "Definition:\nAutomatic conversion of wrapper → primitive.\n\nSyntax:\nInteger → int\n\nExample:\nInteger a = 10;\nint b = a;"
+  },
+  {
+    "question": "What is enum in Java?",
+    "answer": "Definition:\nEnum is used to define a fixed set of constants.\n\nSyntax:\nenum Day { MON, TUE, WED }\n\nExample:\nenum Day { MON, TUE, WED }\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(Day.MON);\n    }\n}"
+  },
+  {
+    "question": "What is inner class?",
+    "answer": "Definition:\nA class defined inside another class.\n\nSyntax:\nclass Outer { class Inner {} }\n\nExample:\nclass Outer {\n    class Inner {\n        void show() {\n            System.out.println(\"Inner class\");\n        }\n    }\n}"
+  },
+  {
+    "question": "What is anonymous class?",
+    "answer": "Definition:\nA class without a name used for one-time implementation.\n\nSyntax:\nnew Class() { }\n\nExample:\ninterface A { void show(); }\npublic class Main {\n    public static void main(String[] args) {\n        A obj = new A() {\n            public void show() {\n                System.out.println(\"Anonymous class\");\n            }\n        };\n        obj.show();\n    }\n}"
+  },
+  {
+    "question": "What is functional interface?",
+    "answer": "Definition:\nInterface with only one abstract method.\n\nSyntax:\n@FunctionalInterface\n\nExample:\n@FunctionalInterface\ninterface A {\n    void show();\n}"
+  },
+  {
+    "question": "What is lambda expression?",
+    "answer": "Definition:\nShort way to implement functional interface.\n\nSyntax:\n() -> {}\n\nExample:\ninterface A { void show(); }\npublic class Main {\n    public static void main(String[] args) {\n        A obj = () -> System.out.println(\"Lambda Expression\");\n        obj.show();\n    }\n}"
+  },
+  {
+    "question": "What is multithreading using Runnable interface?",
+    "answer": "Definition:\nRunnable is used to create threads without extending Thread class.\n\nSyntax:\nclass A implements Runnable\n\nExample:\nclass MyTask implements Runnable {\n    public void run() {\n        System.out.println(\"Thread running\");\n    }\n}"
+  },
+  {
+    "question": "What is deadlock?",
+    "answer": "Definition:\nA situation where two threads wait forever for each other.\n\nExample:\nclass Demo {\n    static final Object A = new Object();\n    static final Object B = new Object();\n}"
+  },
+  {
+    "question": "What is synchronization block?",
+    "answer": "Definition:\nUsed to lock only part of method instead of full method.\n\nSyntax:\nsynchronized(obj) { }\n\nExample:\nclass Table {\n    void print(int n) {\n        synchronized(this) {\n            for(int i=1;i<=5;i++)\n                System.out.println(n*i);\n        }\n    }\n}"
+  },
+  {
+    "question": "What is input stream and output stream?",
+    "answer": "Definition:\nUsed for reading and writing data in files.\n\nSyntax:\nFileInputStream, FileOutputStream\n\nExample:\nimport java.io.*;\nclass Main {\n    public static void main(String[] args) throws Exception {\n        FileInputStream fis = new FileInputStream(\"a.txt\");\n    }\n}"
+  },
+  {
+    "question": "What is serialization and deserialization?",
+    "answer": "Definition:\nSerialization → object → file\nDeserialization → file → object\n\nSyntax:\nimplements Serializable\n\nExample:\nimport java.io.*;\nclass Student implements Serializable {\n    int id = 101;\n}"
+  },
+  {
+    "question": "What is reflection in Java?",
+    "answer": "Definition:\nUsed to inspect classes, methods at runtime.\n\nSyntax:\nClass.forName()\n\nExample:\nclass Main {\n    public static void main(String[] args) throws Exception {\n        Class c = Class.forName(\"java.lang.String\");\n        System.out.println(c.getName());\n    }\n}"
+  },
+  {
+    "question": "What is garbage collection finalize method?",
+    "answer": "Definition:\nUsed before object is destroyed.\n\nSyntax:\nprotected void finalize()\n\nExample:\nclass Demo {\n    protected void finalize() {\n        System.out.println(\"Object destroyed\");\n    }\n}"
+  },
+  {
+    "question": "What is JVM architecture?",
+    "answer": "Definition:\nJVM has Class Loader, Heap, Stack, Execution Engine.\n\nExample:\nJava → Bytecode → JVM → Output"
+  },
+  {
+    "question": "What is JIT compiler?",
+    "answer": "Definition:\nJIT improves performance by converting bytecode into native code."
+  },
+  {
+    "question": "What is API in Java?",
+    "answer": "Definition:\nAPI is a set of predefined classes and interfaces.\n\nExample:\njava.util.Scanner\njava.lang.String"
+  }
+]

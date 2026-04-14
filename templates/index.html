@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Search Engine</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<!-- 🔥 Logo Image -->
+<div class="logo">
+    <img src="/static/java.logo.jpeg" alt="Java Logo">
+</div>
+
+<!-- Background symbols -->
+<div class="bg-symbols">
+    <span>{ }</span>
+    <span>;</span>
+    <span>()</span>
+    <span>class</span>
+    <span>public</span>
+    <span>static</span>
+    <span>void</span>
+    <span>Java</span>
+    <span>JVM</span>
+    <span>OOPS</span>
+    <span>method</span>
+    <span>variable</span>
+    <span>polymorphism</span>
+    <span>array</span>
+    <span>inheritance</span>
+    <span>exception</span>
+</div>
+
+<div class="header">
+    <img src="/static/javamate.jpeg" alt="JavaMate Logo" class="logo-img">
+    <h1 class="title">JavaMate🔍</h1>
+</div>
+<!-- Subtitle -->
+<p class="subtitle">
+    Search and learn Java programming concepts instantly with smart answers.
+</p>
+
+<!-- Search Box -->
+<div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search Java questions...">
+    <button onclick="search()">Search</button>
+</div>
+
+<!-- Suggestions -->
+<ul id="suggestions"></ul>
+
+<!-- Result -->
+<div class="result-box">
+    <p id="suggestion"></p>
+    <h2 id="answer"></h2>
+</div>
+
+<!-- ⭐ STORY OF JAVA ADDED HERE -->
+<div class="story-box">
+    <h2>☕ Story of Java</h2>
+
+    <h3>📌 Origin of Java</h3>
+    <ul>
+        <li>Developed in: 1991</li>
+        <li>Organization: Sun Microsystems</li>
+        <li>Lead Engineer: James Gosling</li>
+        <li>Team Members: Mike Sheridan, Patrick Naughton</li>
+        <li>Original Name: Oak</li>
+    </ul>
+
+    <h3>📌 Why it was named “Java”</h3>
+    <ul>
+        <li>Original name “Oak” was already registered</li>
+        <li>Name changed to avoid legal issues</li>
+        <li>Inspired by Java coffee ☕</li>
+        <li>Coffee from Java Island (Indonesia)</li>
+        <li>Developers used to drink this coffee during work</li>
+    </ul>
+
+    <h3>📌 Important Timeline</h3>
+    <ul>
+        <li>1991 → Project started (called Oak)</li>
+        <li>1995 → Renamed to Java</li>
+        <li>1995 → Official release by Sun Microsystems</li>
+        <li>Later → Became popular for web & enterprise apps</li>
+    </ul>
+
+    <h3>📌 Ownership</h3>
+    <ul>
+        <li>Java is now owned by Oracle Corporation</li>
+    </ul>
+</div>
+<!-- Java Characteristics -->
+<div class="features">
+    <h2>Why Java?</h2>
+
+    <div class="feature-grid">
+        <div class="card">☕ Object-Oriented</div>
+        <div class="card">🔒 Secure</div>
+        <div class="card">🌐 Platform Independent</div>
+        <div class="card">⚡ High Performance</div>
+        <div class="card">🧠 Simple & Familiar</div>
+        <div class="card">🔄 Multithreaded</div>
+    </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
