@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* =========================
+   FLOATING BACKGROUND SYMBOLS
+========================= */
+.bg-symbols span {
+    position: absolute;
+    font-size: 22px;
+    color: rgba(0,0,0,0.1);
+    animation: float 10s linear infinite;
+}
+
+/* Positioning */
+.bg-symbols span:nth-child(1) { top: 8%; left: 6%; }
+.bg-symbols span:nth-child(2) { top: 18%; right: 12%; }
+.bg-symbols span:nth-child(3) { top: 38%; left: 18%; }
+.bg-symbols span:nth-child(4) { top: 58%; right: 18%; }
+.bg-symbols span:nth-child(5) { top: 48%; left: 65%; }
+.bg-symbols span:nth-child(6) { top: 72%; left: 38%; }
+.bg-symbols span:nth-child(7) { top: 85%; right: 8%; }
+
+.bg-symbols span:nth-child(8) { top: 12%; left: 30%; }
+.bg-symbols span:nth-child(9) { top: 45%; left: 5%; }
+.bg-symbols span:nth-child(10) { top: 55%; left: 12%; }
+.bg-symbols span:nth-child(11) { top: 75%; left: 58%; }
+.bg-symbols span:nth-child(12) { top: 25%; right: 28%; }
+.bg-symbols span:nth-child(13) { top: 85%; right: 55%; }
+.bg-symbols span:nth-child(14) { top: 88%; left: 12%; }
+.bg-symbols span:nth-child(15) { top: 6%; left: 60%; }
+.bg-symbols span:nth-child(16) { top: 35%; right: 6%; }
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+
+/* =========================
+   LOGO
+========================= */
+.logo {
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.logo img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
+
+/* =========================
+   TITLE & SUBTITLE
+========================= */
+.title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #222;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin: 10px auto 30px;
+}
+
+/* =========================
+   STORY OF JAVA BOX (NEW IMPROVED)
+========================= */
+.story-box {
+    background: rgba(255, 255, 255, 0.7);
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    text-align: left;
+    backdrop-filter: blur(8px);
+}
+
+.story-box h2 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+.story-box h3 {
+    color: #ff7b00;
+    margin-top: 15px;
+}
+
+.story-box ul {
+    margin-left: 20px;
+    color: #333;
+}
+
+.story-box li {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+/* =========================
+   SEARCH BOX
+========================= */
+.search-box input {
+    width: 420px;
+    padding: 14px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.search-box button {
+    padding: 14px 22px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.search-box button:hover {
+    background: #0056b3;
+}
+
+/* =========================
+   SUGGESTIONS
+========================= */
+#suggestions {
+    list-style: none;
+    padding: 0;
+    width: 420px;
+    margin: 10px auto;
+    text-align: left;
+}
+
+#suggestions li {
+    background: white;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#suggestions li:hover {
+    background: #f1f1f1;
+}
+
+/* =========================
+   RESULT BOX
+========================= */
+.result-box {
+    margin-top: 20px;
+    color: #333;
+}
+
+/* =========================
+   FEATURES SECTION
+========================= */
+.features {
+    margin-top: 60px;
+}
+
+.features h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #e8f4ff;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;   /* space between logo and text */
+    margin-top: 10px;
+}
+
+/* Logo image */
+.logo-img {
+    width: 100px;
+    height: 60px;
+    object-fit: contain;
+}
